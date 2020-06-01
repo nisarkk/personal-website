@@ -208,11 +208,7 @@ div.desc {
 
 /*..........footer..................*/
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 .contact-detailes {
   background: #F9F9F9;
   height: 370px;
@@ -262,14 +258,7 @@ margin-top: 20px;
   font-weight: 400;
 }
 
-fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
-  
-}
+
 
 #contact input[type="text"],
 #contact input[type="email"],
@@ -283,16 +272,6 @@ fieldset {
   padding: 10px;
 }
 
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa;
-}
 
 #contact textarea {
   height: 100px;
